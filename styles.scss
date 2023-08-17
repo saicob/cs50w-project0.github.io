@@ -1,0 +1,64 @@
+$primary-color: #333;
+$secondary-color: #fff;t
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(41, 34, 34);
+  background-image: url(/sunny.jpg);
+}
+
+header {
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding: 20px;
+}
+
+nav {
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 10px;
+
+      a {
+        color: $secondary-color;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+section {
+  background-color: $secondary-color;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #000;
+  font-style: oblique;
+}
+
+p {
+  color: #666;
+  background-color: $secondary-color;
+}
+
+a {
+  color: #337ab7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+table {
+  background-color: white;
+  height: 20px;
+}

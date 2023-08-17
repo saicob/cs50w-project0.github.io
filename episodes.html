@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        /* Estilos adicionales específicos para el diseño responsivo */
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+
+            /* Estilos para dispositivos con un ancho máximo de 768px, como tablets */
+            section {
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            /* Estilos para dispositivos con un ancho máximo de 480px, como teléfonos móviles */
+            section {
+                padding: 5px;
+            }
+        }
+    </style>
+    <title>Episodios</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="onepiece.html">One Piece</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="characters.html">Personajes</a>
+                        </li>
+                        <a class="navbar-brand" href="#">Episodios</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <h1 class="text-center">Episodios de One Piece</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhxxC4KIErsCbP_GDhgksdBPs7IKcJaP0VVP2moWiOkLbKnJ62BgfrqFTVffC06_s7kv5buHqK3TcJjnXOKV3qUaDLdJXl7zIEYKbXo9OrQIOfwGDf884NukinJcskJaJoZr-P2emtl3Lanurpoq0001LBrcyeVAESDXxKnjbiUbaCaeOkDmB_iP-nGAQ=s16000"
+                        class="card-img-top" alt="Episodio 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Episodio 1</h5>
+                        <p class="card-text">Recogen un barril creyendo que era vino, pero zaz aparece Monkey D. Luffy.
+                        </p>
+                        <a href="https://www3.animeflv.net/ver/one-piece-tv-1" class="btn btn-primary">Ver episodio</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
